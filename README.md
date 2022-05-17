@@ -13,6 +13,13 @@ Client definition:
 Clients are unique, and transactions stop applying to them when the account becomes locked.
 The fields available, held, and total are all decimal's with a precision of 4.
 
+Example run command:
+
+```
+cargo run -- transactions.csv > accounts.csv
+```
+
+
 ## Input
 
 Reads in a specified CSV file from first os arg
