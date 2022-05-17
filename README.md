@@ -89,4 +89,5 @@ I tested using files in the inputs/ folder.
 - Refactoring into clean code with more specific function responsibilities
     - Like moving client and transaction and their implementations to separate files
 - Using actual tests and running cargo test
-
+- In order to handle multiple files at a time, this would need to be updated to be async
+    - Would need an Arc on the clients and transactions fields to share its state with multiple threads and maintain accuracy
