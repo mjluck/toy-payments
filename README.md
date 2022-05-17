@@ -58,6 +58,15 @@ deposit,    1,      1
 
 Once all lines have been processed without error, the executeable writes accounts to stdout in csv format
 
+Example output:
+
+```
+client, available,  held,   total,  locked
+1,2.3245,0.0000,2.3245,false
+2,1.0000,2.0000,3.0000,false
+3,2.2500,0.0000,2.2500,true
+```
+
 - ordering by client id not gauranteed and not required
 - balances are to a precision of 4
 
